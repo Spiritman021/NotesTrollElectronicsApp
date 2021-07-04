@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fancy_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/btn1"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/back1"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitCenter"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Notes Troll Electronics"
+                android:fontFamily="@font/robotoregular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#07b8db"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/notestroll"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:alpha="1"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6th Semester"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#23eb10"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department of Electronics"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/statregular"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#f2ce85"
+            android:layout_marginTop="2dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            app:cardBackgroundColor="#f57505"
+            app:cardCornerRadius="15dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communication Electronics"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            app:cardBackgroundColor="#f57505"
+            app:cardCornerRadius="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photonics"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dse6th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            app:cardBackgroundColor="#f57505"
+            app:cardCornerRadius="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DSE"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/electro"
+
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:alpha="1"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

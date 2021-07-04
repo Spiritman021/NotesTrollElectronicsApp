@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fancy_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="0">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@color/black"
+
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/btn1"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/menu"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitCenter"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="center_vertical"
+                android:text="Notes Troll Electronics"
+                android:textColor="#07b8db"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="#07b8db"
+        android:layout_weight="0">
+<!--        <ImageView-->
+<!--            android:id="@+id/img2"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/textView"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:background="@drawable/du"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:alpha="1"-->
+<!--            />-->
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered by Two Root 2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/tekoregular"
+            android:textSize="15dp"
+            android:textColor="#4a0059"
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/du"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:alpha="1"
+        />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University of Delhi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="@font/tekoregular"
+        android:textColor="#23eb10"
+        />
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/notestroll"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:alpha="1"
+        />
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/statregular"
+        android:text="DEPARTMENT OF ELECTRONICS"
+        android:textColor="#f2ce85"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+    <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/electro"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:alpha="1"
+            />
+        <ImageView
+            android:id="@+id/img23"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/circuit"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:alpha="1"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sem1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#07b8db"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1st Semester"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/robotoregular"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sem2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                app:cardBackgroundColor="#07b8db"
+                app:cardCornerRadius="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2nd Semester"
+                    android:layout_gravity="center"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="@color/white"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sem3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                app:cardBackgroundColor="#fa4002"
+                app:cardCornerRadius="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3rd Semester"
+                    android:layout_gravity="center"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="bold"
+                    android:textColor="#19fa6f"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sem4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                app:cardBackgroundColor="#fa4002"
+                app:cardCornerRadius="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4th Semester"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#19fa6f"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sem5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                app:cardBackgroundColor="#02fa61"
+                app:cardCornerRadius="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5th Semester"
+                    android:layout_gravity="center"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#f51105"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sem6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                app:cardBackgroundColor="#02fa61"
+                app:cardCornerRadius="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6th Semester"
+                    android:layout_gravity="center"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="bold"
+                    android:textColor="#f51105"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/syllabus"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#07b8db"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Syllabus"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/robotoregular"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/drwr"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/black"
+        android:layout_gravity="center_horizontal|center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drawer"
+            android:layout_gravity="center"
+            android:textSize="17dp"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold"
+            android:textColor="#19fa6f"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
